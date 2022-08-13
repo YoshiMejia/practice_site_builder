@@ -9,8 +9,16 @@ body{
     min-height: 100%;
 }
 
+.colors_container {
+    min-height: 100%;
+}
+
 .lactaid_name, .lactaid_hex{
     background-color: #f4f1de;
     padding: 10px;
     margin: 15px;
+}
+
+.cream p{
+    background-color: #f2cc8f;
 }
