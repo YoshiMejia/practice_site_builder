@@ -11,12 +11,12 @@ body{
 
 .colors_container {
     min-height: 100%;
+    padding: 10px;
+    margin: 15px;
 }
 
 .lactaid_name, .lactaid_hex{
     background-color: #f4f1de;
-    padding: 10px;
-    margin: 15px;
 }
 
 .cream p{
