@@ -10,15 +10,22 @@ body{
 }
 
 .colors_container {
-    min-height: 100%;
     padding: 10px;
-    margin: 15px;
+    margin: 15px auto;
 }
 
-.lactaid_name, .lactaid_hex{
+.color_panel.lactaid_white{
     background-color: #f4f1de;
 }
 
-.cream p{
+.color_panel{
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align: center;
+}
+
+.color_panel.cream{
     background-color: #f2cc8f;
 }
