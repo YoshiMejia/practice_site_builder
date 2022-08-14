@@ -14,7 +14,7 @@ body{
     margin: 15px auto;
 }
 
-.color_panel.lactaid_white{
+.color_panel.off_white{
     background-color: #f4f1de;
 }
 
@@ -28,4 +28,8 @@ body{
 
 .color_panel.cream{
     background-color: #f2cc8f;
+}
+
+.color_panel.peach {
+    background-color: #e07a5f;
 }
