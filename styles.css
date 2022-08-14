@@ -12,7 +12,7 @@ body{
 .colors_container {
     padding: 10px;
     margin: 15px auto;
-    width: 70%;
+    width: 70%w;
 }
 
 .color_panel{
@@ -21,6 +21,10 @@ body{
     margin: 0 auto;
     min-height: 100px;
     text-align: center;
+}
+
+.color_panel:hover {
+    border: black dotted 2px;
 }
 
 .color_panel.off_white{
