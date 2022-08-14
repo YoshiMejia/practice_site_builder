@@ -14,10 +14,6 @@ body{
     margin: 15px auto;
 }
 
-.color_panel.off_white{
-    background-color: #f4f1de;
-}
-
 .color_panel{
     display: inline-block;
     width: 40%;
@@ -26,10 +22,19 @@ body{
     text-align: center;
 }
 
+.color_panel.off_white{
+    background-color: #f4f1de;
+}
+
 .color_panel.cream{
     background-color: #f2cc8f;
+}
+
+.color_panel.yellow{
+    background-color: #fbb13c;
 }
 
 .color_panel.peach {
     background-color: #e07a5f;
 }
+
