@@ -6,7 +6,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles.css">
-        <script type="text/javascript" src="./app.js"></script>
+        <script type="text/javascript">
+            function copy(hex){  
+                 navigator.clipboard.writeText(hex)
+                    .then(() => {
+                        alert("successfully copied");
+                    })
+                    .catch(() => {
+                        alert("something went wrong");
+                    });
+            }
+        </script>
     </head>
 
     <body>
@@ -20,7 +30,7 @@
             <h2>Color Selector</h2>
             
             <div class="colors_container">
-                <div class="color_panel off_white">
+                <div class="color_panel off_white" onclick="copy('f4f1de')">
                     <p class="off_name">Off White</p>
                     <p class="off_hex">f4f1de</p>
                 </div>
