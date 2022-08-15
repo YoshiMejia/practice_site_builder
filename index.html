@@ -6,17 +6,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles.css">
-        <script type="text/javascript">
-            function copy(hex){  
-                 navigator.clipboard.writeText(hex)
-                    .then(() => {
-                        alert("successfully copied");
-                    })
-                    .catch(() => {
-                        alert("something went wrong");
-                    });
-            }
-        </script>
     </head>
 
     <body>
@@ -62,6 +51,16 @@
             </div>
         </div>
 
-
+        <script type="text/javascript">
+            function copy(hex){  
+                 navigator.clipboard.writeText(hex)
+                    .then(() => {
+                        alert("successfully copied");
+                    })
+                    .catch(() => {
+                        alert("something went wrong");
+                    });
+            }
+        </script>
     </body>
 </html>
