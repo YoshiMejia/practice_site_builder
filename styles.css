@@ -56,6 +56,10 @@ body{
     font-family: 'Dynapuff';
 }
 
+.rubik-marker {
+    font-family: 'Rubik Marker Hatch';
+}
+
 .font_title {
     text-decoration: underline;
 }
