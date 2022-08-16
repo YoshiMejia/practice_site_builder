@@ -10,6 +10,8 @@ body{
     margin: 20px;
 }
 
+/* Colors */
+
 .colors_container {
     padding: 10px;
     margin: 15px auto;
@@ -50,6 +52,13 @@ body{
 
 .color_panel.navy {
     background-color: #3d405b;   
+}
+
+/* Fonts */
+
+.font {
+    display: inline-block;
+    width: 350px;
 }
 
 .dynapuff {
